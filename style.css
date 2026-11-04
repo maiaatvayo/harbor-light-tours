@@ -1,0 +1,6 @@
+body{font-family:Georgia,serif;max-width:720px;margin:24px auto;padding:0 16px;color:#1c2b36;background:#f7f4ee}
+h1{font-size:28px;margin:0 0 4px}header p{margin:0 0 24px;color:#5b6b75}
+.card{background:#fff;border:1px solid #ddd;border-radius:8px;padding:16px;margin:12px 0}
+label{display:block;margin:10px 0 4px}input[type=text],input[type=email],input[type=tel],input[type=password],select{width:100%;padding:8px;box-sizing:border-box}
+button,.btn{background:#0e5a7a;color:#fff;border:0;padding:10px 18px;border-radius:6px;font-size:16px;cursor:pointer;text-decoration:none;display:inline-block;margin-top:12px}
+.price{font-weight:bold}footer{margin-top:40px;font-size:12px;color:#8a979f}.check{display:flex;gap:8px;align-items:flex-start;margin:10px 0}.check input{margin-top:4px}

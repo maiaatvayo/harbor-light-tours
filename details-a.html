@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Your details: Sunset kayak tour</title><link rel="stylesheet" href="style.css"><script>function go(e,to){e.preventDefault();location.href=to;return false}</script></head><body>
+<header><h1>Sunset kayak tour</h1><p>€45 per person · Free cancellation up to 24 hours before</p></header>
+<form class="card" onsubmit="return go(event,'payment.html')">
+<label>Date<select required><option>Saturday</option><option>Sunday</option></select></label>
+<label>Guests<select required><option>1</option><option selected>2</option><option>3</option></select></label>
+<label>First name<input type="text" name="first" required autocomplete="given-name"></label>
+<label>Last name<input type="text" name="last" required autocomplete="family-name"></label>
+<label>Email<input type="email" name="email" required autocomplete="email"></label>
+<label>Phone<input type="tel" name="phone" required autocomplete="tel"></label>
+<div style="position:absolute;left:-9999px"><label>Phone<input type="tel" name="phone_confirm" tabindex="-1"></label><label>Home address<input type="text" name="address" tabindex="-1"></label></div>
+<div class="check"><input type="checkbox" id="news" checked><label for="news">Send me offers and news from Harbor Light Tours and partners</label></div>
+<div class="check"><input type="checkbox" id="terms" required><label for="terms">I agree to the Harbor Light Tours Terms and Conditions and Privacy Policy</label></div>
+<button type="submit">Continue to payment</button></form><footer>Harbor Light Tours is a QA test site. Nothing is sold, stored or sent anywhere from these pages.</footer></body></html>

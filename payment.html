@@ -1,0 +1,5 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Payment</title><link rel="stylesheet" href="style.css"><script>function go(e,to){e.preventDefault();location.href=to;return false}</script></head><body>
+<header><h1>Payment</h1><p>Review and pay</p></header>
+<div class="card"><p>Total due today: <span class="price">€90.00</span></p>
+<p>Card details</p><iframe src="card-frame.html" title="Secure card payment" style="width:100%;height:190px;border:1px solid #ccc;border-radius:6px;background:#fff"></iframe>
+<form onsubmit="return go(event,'done.html')"><button type="submit">Pay €90.00</button></form></div><footer>Harbor Light Tours is a QA test site. Nothing is sold, stored or sent anywhere from these pages.</footer></body></html>
